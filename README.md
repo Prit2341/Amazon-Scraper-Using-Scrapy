@@ -6,10 +6,12 @@
 ## Installestion
 <li>First Create Virtual enviorment</li>
 <li>Now Install the Scrapy<li>
-```python
+
+ ```
 cd amazontutorial\amazontutorial
 ```
 ### Run Command
+  
 ```
 scrapy crawl amazon
 scrapy crawl amazon -o data.csv #for Appending data in to csv file
