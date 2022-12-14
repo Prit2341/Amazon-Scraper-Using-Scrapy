@@ -1,19 +1,22 @@
 # Amazon-Scraper-Using-Scrapy
-## Used Tecnologys
-<li>Python</li>
-<li>Scrapy</li>
+## About this Project
+Amazon Scraper is use for the scraping any product detalis like Product Name, Price,detali Description about project, Rating, Detail Review of the Product.I mande this project using scrapy librery
 
-## Installestion
-<li>First Create Virtual enviorment</li>
-<li>Now Install the Scrapy<li>
+## Installestion Guidens
 
- ```
-cd amazontutorial\amazontutorial
+Clone The repo Using git clone
 ```
-### Run Command
-  
+git clone https://github.com/Prit2341/Amazon-Scraper-Using-Scrapy.git
+#Go to clone Directory
+cd amazontutorial/amazontutorial
 ```
+
+For Result
+```
+#Run command in terminal
 scrapy crawl amazon
-scrapy crawl amazon -o data.csv #for Appending data in to csv file
-scrapy crawl amazon -o data.json # for appending data in to json file
+#If you want to store data in csv file 
+scrapy crawl amazon -o file.csv
+#If you want to store data in json file
+scrapy crawl amazon -o file.json
 ```
